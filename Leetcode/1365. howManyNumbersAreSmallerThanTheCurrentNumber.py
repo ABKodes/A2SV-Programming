@@ -7,4 +7,4 @@ class Solution:
                 if nums[i] > nums[j] and i != j:
                     count+=1
             result.append(count)
-        return result
+        return result 
