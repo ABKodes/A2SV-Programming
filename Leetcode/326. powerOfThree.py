@@ -5,4 +5,3 @@ class Solution:
         if n < 1:
             return False
         return self.isPowerOfThree(n / 3)
-``
