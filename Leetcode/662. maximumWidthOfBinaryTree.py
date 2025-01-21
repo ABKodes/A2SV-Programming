@@ -22,4 +22,3 @@ class Solution:
             # _, lastIndex = queue[-1] if queue else (None, index)
             maxWidth = max(maxWidth, index - firstIndex + 1)
         return maxWidth
- 
