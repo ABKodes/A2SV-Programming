@@ -1,0 +1,1 @@
+{"name":"Local: 18A","url":"d:\\A2SV-Programming\\Contests\\18A. cardGame.py","tests":[{"id":1749923111918,"input":"2\n2 1 1\n2\n1\n5 2 3\n2 3\n1 4 5","output":"YES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\18A. cardGame.py","group":"local","local":true}

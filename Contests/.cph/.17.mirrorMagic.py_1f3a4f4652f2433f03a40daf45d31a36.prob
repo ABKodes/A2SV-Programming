@@ -1,0 +1,1 @@
+{"name":"Local: 17","url":"d:\\A2SV-Programming\\Contests\\17.mirrorMagic.py","tests":[{"id":1748714483906,"input":"5\nqwq\nppppp\npppwwwqqq\nwqpqwpqwwqp\npqpqpqpq","output":"pwp\nqqqqq\npppwwwqqq\nqpwwpqwpqpw\npqpqpqpq"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\17.mirrorMagic.py","group":"local","local":true}

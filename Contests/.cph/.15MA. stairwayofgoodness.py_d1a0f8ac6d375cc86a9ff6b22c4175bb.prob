@@ -1,0 +1,1 @@
+{"name":"Local: 15MA","url":"d:\\A2SV-Programming\\Contests\\15MA. stairwayofgoodness.py","tests":[{"id":1746725885745,"input":"5\n1 2\n1 5\n2 2\n10 20\n1 1000000000","output":"2\n3\n1\n5\n44721"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\15MA. stairwayofgoodness.py","group":"local","local":true}

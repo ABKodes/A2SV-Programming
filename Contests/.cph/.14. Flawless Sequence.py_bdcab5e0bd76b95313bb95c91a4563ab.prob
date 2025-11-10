@@ -1,0 +1,1 @@
+{"name":"Local: 14","url":"d:\\A2SV-Programming\\Contests\\14. Flawless Sequence.py","tests":[{"id":1746293326527,"input":"3\n1\n4\n5","output":"-1\n2 4 1 3\n5 1 4 3 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\14. Flawless Sequence.py","group":"local","local":true}

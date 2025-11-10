@@ -1,0 +1,1 @@
+{"name":"Local: 17B","url":"d:\\A2SV-Programming\\Contests\\17B. squareFreeMaximum.py","tests":[{"id":1748714680129,"input":"2\n4 2","output":"2"},{"id":1748714695731,"input":"8\n1 2 4 8 16 32 64 576","output":"32"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\17B. squareFreeMaximum.py","group":"local","local":true}

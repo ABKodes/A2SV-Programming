@@ -1,0 +1,1 @@
+{"name":"Local: 14B","url":"d:\\A2SV-Programming\\Contests\\14B. B. Aaron’s Decoder.py","tests":[{"id":1746294799357,"input":"4\n3\n000\n000\n6\n010001\n010111\n5\n10000\n01010\n2\n11\n00","output":"YES\nYES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\14B. B. Aaron’s Decoder.py","group":"local","local":true}

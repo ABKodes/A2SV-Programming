@@ -1,0 +1,1 @@
+{"name":"Local: 14E","url":"d:\\A2SV-Programming\\Contests\\14E. manhattanOdyssey.py","tests":[{"id":1746296815693,"input":"5\n0 7\n8 10\n3 4\n5 0\n9 12","output":"4 3 1 2 5 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\14E. manhattanOdyssey.py","group":"local","local":true}

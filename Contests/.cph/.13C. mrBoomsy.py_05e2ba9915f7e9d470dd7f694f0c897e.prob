@@ -1,0 +1,1 @@
+{"name":"Local: 13C","url":"d:\\A2SV-Programming\\Contests\\13C. mrBoomsy.py","tests":[{"id":1745688846879,"input":"3\nAAA\nBABA\nAABBBABBBB","output":"3\n2\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\13C. mrBoomsy.py","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 15MD","url":"d:\\A2SV-Programming\\Contests\\15MD. squareRootShuffle.py","tests":[{"id":1746729041670,"input":"3\n2\n5\n4","output":"3 1\n20 29 18 26 28\n25 21 23 31"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\15MD. squareRootShuffle.py","group":"local","local":true}

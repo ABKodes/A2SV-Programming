@@ -1,0 +1,1 @@
+{"name":"Local: ringOfFireOrCalm","url":"d:\\A2SV-Programming\\Contests\\ringOfFireOrCalm.py","tests":[{"id":1752950405018,"input":"4 2\n1 3\n2 4","output":"io"},{"id":1752950416680,"input":"6 3\n1 3\n3 5\n5 1","output":"ooo"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\ringOfFireOrCalm.py","group":"local","local":true}

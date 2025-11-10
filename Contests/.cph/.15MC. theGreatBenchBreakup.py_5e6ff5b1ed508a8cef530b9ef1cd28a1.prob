@@ -1,0 +1,1 @@
+{"name":"Local: 15MC","url":"d:\\A2SV-Programming\\Contests\\15MC. theGreatBenchBreakup.py","tests":[{"id":1746729693715,"input":"5\n3 4 7\n5 5 5\n1 13 2\n2 4 7\n1 5 4","output":"2\n1\n1\n4\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\15MC. theGreatBenchBreakup.py","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 13E","url":"d:\\A2SV-Programming\\Contests\\13E. natoliStringQuest.py","tests":[{"id":1745689719152,"input":"cab","output":"abc"},{"id":1745689727639,"input":"acdb","output":"abdc"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\13E. natoliStringQuest.py","group":"local","local":true}

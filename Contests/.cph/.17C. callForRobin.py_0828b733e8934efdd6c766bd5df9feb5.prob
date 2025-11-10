@@ -1,0 +1,1 @@
+{"name":"Local: 17C","url":"d:\\A2SV-Programming\\Contests\\17C. callForRobin.py","tests":[{"id":1748716528368,"input":"6\n1\n2\n2\n2 19\n3\n1 3 20\n4\n1 2 3 4\n5\n1 2 3 4 5\n6\n1 2 1 1 1 25","output":"-1\n-1\n0\n15\n16\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\17C. callForRobin.py","group":"local","local":true}

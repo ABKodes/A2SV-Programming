@@ -1,0 +1,1 @@
+{"name":"Local: xorionandthepeaks","url":"d:\\A2SV-Programming\\Contests\\xorionandthepeaks.py","tests":[{"id":1755974453069,"input":"5\n1 0\n5 2\n6 6\n2 1\n6 1","output":"1 \n2 4 1 5 3 \n-1\n-1\n1 3 6 5 4 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\xorionandthepeaks.py","group":"local","local":true}

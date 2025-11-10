@@ -1,0 +1,1 @@
+{"name":"Local: loveStory","url":"d:\\A2SV-Programming\\Contests\\loveStory.py","tests":[{"id":1746887285477,"input":"5\ncoolforsez\ncadafurcie\ncodeforces\npaiuforces\nforcescode","output":"4\n5\n0\n4\n9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\loveStory.py","group":"local","local":true}

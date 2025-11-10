@@ -1,0 +1,1 @@
+{"name":"Local: wrongSubstraction","url":"d:\\A2SV-Programming\\Contests\\wrongSubstraction.py","tests":[{"id":1746802368896,"input":"512 4","output":"50"},{"id":1746802375985,"input":"1000000000 9","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\A2SV-Programming\\Contests\\wrongSubstraction.py","group":"local","local":true}
