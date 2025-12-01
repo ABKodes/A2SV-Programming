@@ -1,20 +1,25 @@
-# Job Listing Dashboard (Task 6)
+# Job Finder Dashboard (Task 7)
 
-A responsive React Job Listing application styled with Tailwind CSS. This dashboard displays a list of available job opportunities with detailed cards including company logos, tags, and descriptions.
+A dynamic Job Listing application that fetches real-time data from the Akil Backend API. This project demonstrates proficiency in React Hooks (`useEffect`, `useState`), API integration, error handling, and modern UI styling with Tailwind CSS.
 
 ## Features
 
-- **Responsive Job Cards**: Custom-designed components using Flexbox and Grid.
-- **Dynamic Data**: Renders job lists from a JSON source (`jobs.json`).
-- **Tailwind Styling**: Uses utility classes for hover states, typography, and layout (no external CSS files).
-- **Avatar Integration**: Displays company logos/avatars dynamically.
-- **Modern UI**: Includes badges, bookmark icons, and applicant counters.
+- **Live Data Integration**: Fetches job opportunities from `https://akil-backend.onrender.com/`.
+- **Loading States**: Displays a spinner while data is being fetched.
+- **Error Handling**: Gracefully handles network errors or API failures with user feedback.
+- **Dynamic Rendering**: Maps API data to reusable `JobCard` components.
+- **Responsive Design**: Fully responsive layout optimized for all devices.
+
+## API Endpoint Used
+
+- **GET** `/opportunities/search`: Retrieves the list of available job opportunities.
 
 ## Tech Stack
 
 - **React (Vite)**: Frontend framework.
-- **TypeScript**: For static typing and safety.
-- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **TypeScript**: For strict typing of API responses.
+- **Tailwind CSS**: Styling framework.
+- **Fetch API**: Native browser API for network requests.
 
 ## Installation & Setup
 
@@ -35,18 +40,10 @@ A responsive React Job Listing application styled with Tailwind CSS. This dashbo
    ```
    Open your browser to `http://localhost:5173`.
 
-## Project Structure
+## Screenshots
 
-- `src/components/JobCard.tsx`: The reusable card component displaying individual job details.
-- `src/assets/jobs.json`: The dummy data source mimicking an API response.
-- `src/types.ts`: TypeScript interfaces defining the shape of the Job data.
-- `src/App.tsx`: The main dashboard layout containing the header and the grid of job cards.
-
-## Screenshot
-
+### Dashboard with API Data
 ![Dashboard Screenshot](./screenshot.png)
-
-*(Note: This project includes a `screenshot.png` file in the root directory demonstrating the running application.)*
 
 ## Author
 
