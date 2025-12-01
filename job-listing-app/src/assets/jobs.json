@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "company": "TechCorp",
+    "logo": "https://ui-avatars.com/api/?name=Tech+Corp&background=4640DE&color=fff",
+    "title": "Senior Frontend Developer",
+    "location": "San Francisco, CA",
+    "type": "Full-Time",
+    "description": "We are looking for a passionate React developer to join our core team. You will be responsible for building scalable UI components.",
+    "tags": ["React", "TypeScript", "Tailwind"],
+    "applicants": 45
+  },
+  {
+    "id": 2,
+    "company": "Designify",
+    "logo": "https://ui-avatars.com/api/?name=Designify&background=FFB836&color=fff",
+    "title": "UI/UX Designer",
+    "location": "Remote",
+    "type": "Contract",
+    "description": "Create intuitive user experiences and pixel-perfect designs for our mobile applications.",
+    "tags": ["Figma", "Sketch", "Prototyping"],
+    "applicants": 12
+  },
+  {
+    "id": 3,
+    "company": "DataFlow",
+    "logo": "https://ui-avatars.com/api/?name=Data+Flow&background=56CDAD&color=fff",
+    "title": "Backend Engineer",
+    "location": "New York, NY",
+    "type": "Full-Time",
+    "description": "Help us build robust APIs and microservices to handle millions of requests per day.",
+    "tags": ["Node.js", "AWS", "SQL"],
+    "applicants": 28
+  },
+  {
+    "id": 4,
+    "company": "CloudNine",
+    "logo": "https://ui-avatars.com/api/?name=Cloud+Nine&background=EB8533&color=fff",
+    "title": "DevOps Specialist",
+    "location": "Austin, TX",
+    "type": "Part-Time",
+    "description": "Manage our CI/CD pipelines and ensure 99.9% uptime for our cloud infrastructure.",
+    "tags": ["Docker", "Kubernetes", "Terraform"],
+    "applicants": 8
+  }
+]
