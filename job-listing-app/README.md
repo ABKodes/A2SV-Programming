@@ -1,28 +1,31 @@
-# Job Listing App with Authentication (Task 8)
+# Job Listing App (Final Task)
 
-This project is a robust Job Listing Dashboard built with React and TypeScript. It features full user authentication (Signup, Email Verification, Login) integrated with a live backend API, along with a dynamic job feed managed by React Context.
+A comprehensive Job Listing Dashboard built with React, TypeScript, and Tailwind CSS. This project features full user authentication, real-time API data fetching, bookmarking functionality, and a robust testing suite.
 
 ## Features
 
 - **User Authentication**:
-  - **Sign Up**: Users can register a new account via the API.
-  - **Email Verification**: Includes an OTP verification step immediately after signup.
-  - **Login**: Secure login using JWT tokens stored in LocalStorage.
-  - **Logout**: proper session clearing.
-- **Job Dashboard**: Fetches and displays job opportunities from the Akil Backend API.
-- **Global State Management**: Uses React Context API to manage authentication status across the app.
-- **Form Handling**: Robust client-side validation using `react-hook-form`.
-- **Responsive Design**: Professional UI styled with Tailwind CSS.
+  - Sign Up with Email Verification (OTP).
+  - Secure Login with JWT handling.
+  - Auto-logout and session management.
+- **Job Dashboard**:
+  - Browse job opportunities fetched from a live backend.
+  - Dynamic routing and error handling.
+- **Bookmarking System**:
+  - Authenticated users can bookmark/unbookmark jobs.
+  - Bookmarks persist across sessions via the API.
+- **Testing**:
+  - **Unit Tests**: Component testing using Jest & React Testing Library.
+  - **E2E Tests**: Full user flow testing using Cypress.
 
 ## Tech Stack
 
-- **Frontend**: React (Vite), TypeScript
+- **Frontend**: React, Vite, TypeScript
 - **Styling**: Tailwind CSS
-- **Routing**: React Router DOM
-- **State Management**: React Context API
-- **Forms**: React Hook Form
+- **State**: React Context API
+- **Testing**: Jest, Cypress
 
-## Setup Instructions
+## Setup & Installation
 
 1. **Clone the repository**
    ```bash
@@ -35,39 +38,45 @@ This project is a robust Job Listing Dashboard built with React and TypeScript. 
    npm install
    ```
 
-3. **Run the App**
+3. **Run the Application**
    ```bash
    npm run dev
    ```
-   Access the app at `http://localhost:5173`.
+   The app will be available at `http://localhost:5173`.
 
-## Project Structure
+## How to Run Tests
 
-- **`src/pages/`**:
-  - `Home.tsx`: Main dashboard showing the job list.
-  - `Login.tsx`: Login form handling authentication tokens.
-  - `Signup.tsx`: Two-step registration process (Sign up -> Verify OTP).
-- **`src/context/AuthContext.tsx`**: Centralized logic for managing user sessions and tokens.
-- **`src/components/JobCard.tsx`**: Reusable UI component for job items.
-- **`src/App.tsx`**: Main router configuration.
+### 1. Unit Tests (Jest)
+Tests the rendering and logic of individual components (e.g., `JobCard`).
+```bash
+npm test
+```
 
-## API Endpoints Used
-
-- `POST /signup`: Register a new user.
-- `POST /verify-email`: Verify the user via OTP.
-- `POST /login`: Authenticate and receive an access token.
-- `GET /opportunities/search`: Fetch the list of jobs.
+### 2. End-to-End Tests (Cypress)
+Tests the complete user flow: Login -> View Jobs -> Bookmark a Job.
+*Make sure the app is running (`npm run dev`) in a separate terminal before starting Cypress.*
+```bash
+npx cypress open
+```
+Select **E2E Testing** -> **Chrome** -> Click **`bookmark.cy.ts`**.
 
 ## Screenshots
 
-### Dashboard (Home)
+### 1. Dashboard (Home)
+*(Add a screenshot of the home page showing job cards)*
 ![Home Page](./screenshots/home.png)
 
-### Signup & Verification
-![Signup Page](./screenshots/signup.png)
-
-### Login
+### 2. Login & Signup
+*(Add a screenshot of the login form)*
 ![Login Page](./screenshots/login.png)
+
+### 3. Bookmarked State
+*(Add a screenshot showing a job card with the filled bookmark icon)*
+![Bookmark Example](./screenshots/bookmark.png)
+
+### 4. Test Results
+*(Add a screenshot of your passing Jest or Cypress terminal)*
+![Tests](./screenshots/tests.png)
 
 ## Author
 
