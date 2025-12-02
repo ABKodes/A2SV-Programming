@@ -1,13 +1,13 @@
 export interface Job {
-  id: string; // API returns string IDs
+  id: string;
   title: string;
   description: string;
   logoUrl: string;
   orgName: string;
-  location: string[]; // API returns an array of strings
+  location: string[];
   opType: string;
   categories: string[];
-  members: number; // Using this for applicants count if available, or defaulting
+  members: number;
   createdAt: string;
   updatedAt: string;
   status: string;

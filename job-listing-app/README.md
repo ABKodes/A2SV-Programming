@@ -1,31 +1,32 @@
-# Job Finder Dashboard (Task 7)
+# Job Listing App with Authentication (Task 8)
 
-A dynamic Job Listing application that fetches real-time data from the Akil Backend API. This project demonstrates proficiency in React Hooks (`useEffect`, `useState`), API integration, error handling, and modern UI styling with Tailwind CSS.
+This project is a robust Job Listing Dashboard built with React and TypeScript. It features full user authentication (Signup, Email Verification, Login) integrated with a live backend API, along with a dynamic job feed managed by React Context.
 
 ## Features
 
-- **Live Data Integration**: Fetches job opportunities from `https://akil-backend.onrender.com/`.
-- **Loading States**: Displays a spinner while data is being fetched.
-- **Error Handling**: Gracefully handles network errors or API failures with user feedback.
-- **Dynamic Rendering**: Maps API data to reusable `JobCard` components.
-- **Responsive Design**: Fully responsive layout optimized for all devices.
-
-## API Endpoint Used
-
-- **GET** `/opportunities/search`: Retrieves the list of available job opportunities.
+- **User Authentication**:
+  - **Sign Up**: Users can register a new account via the API.
+  - **Email Verification**: Includes an OTP verification step immediately after signup.
+  - **Login**: Secure login using JWT tokens stored in LocalStorage.
+  - **Logout**: proper session clearing.
+- **Job Dashboard**: Fetches and displays job opportunities from the Akil Backend API.
+- **Global State Management**: Uses React Context API to manage authentication status across the app.
+- **Form Handling**: Robust client-side validation using `react-hook-form`.
+- **Responsive Design**: Professional UI styled with Tailwind CSS.
 
 ## Tech Stack
 
-- **React (Vite)**: Frontend framework.
-- **TypeScript**: For strict typing of API responses.
-- **Tailwind CSS**: Styling framework.
-- **Fetch API**: Native browser API for network requests.
+- **Frontend**: React (Vite), TypeScript
+- **Styling**: Tailwind CSS
+- **Routing**: React Router DOM
+- **State Management**: React Context API
+- **Forms**: React Hook Form
 
-## Installation & Setup
+## Setup Instructions
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone <your-repo-url>
    cd job-listing-app
    ```
 
@@ -34,16 +35,39 @@ A dynamic Job Listing application that fetches real-time data from the Akil Back
    npm install
    ```
 
-3. **Run the Development Server**
+3. **Run the App**
    ```bash
    npm run dev
    ```
-   Open your browser to `http://localhost:5173`.
+   Access the app at `http://localhost:5173`.
+
+## Project Structure
+
+- **`src/pages/`**:
+  - `Home.tsx`: Main dashboard showing the job list.
+  - `Login.tsx`: Login form handling authentication tokens.
+  - `Signup.tsx`: Two-step registration process (Sign up -> Verify OTP).
+- **`src/context/AuthContext.tsx`**: Centralized logic for managing user sessions and tokens.
+- **`src/components/JobCard.tsx`**: Reusable UI component for job items.
+- **`src/App.tsx`**: Main router configuration.
+
+## API Endpoints Used
+
+- `POST /signup`: Register a new user.
+- `POST /verify-email`: Verify the user via OTP.
+- `POST /login`: Authenticate and receive an access token.
+- `GET /opportunities/search`: Fetch the list of jobs.
 
 ## Screenshots
 
-### Dashboard with API Data
-![Dashboard Screenshot](./screenshot.png)
+### Dashboard (Home)
+![Home Page](./screenshots/home.png)
+
+### Signup & Verification
+![Signup Page](./screenshots/signup.png)
+
+### Login
+![Login Page](./screenshots/login.png)
 
 ## Author
 
